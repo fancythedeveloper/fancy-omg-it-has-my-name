@@ -5,6 +5,9 @@ with extra stuff if you want it
 
 created by ssolsta 2021-2023
 more info: https://github.com/sSolsta/fancy-1.9-level-reuploader/
+
+fork by fancythedeveloper 2025
+because zud asked for it i guess
 """
 
 import multiprocessing
@@ -20,7 +23,7 @@ from urllib.error import HTTPError
 VERSION_TAG = "v2.16"
 
 # nettik.co.uk doesn't support https, absolllute.com does
-gdps = gjservers.Server("https://absolllute.com/gdps/gdapi/", name = "1.9")
+gdps = gjservers.Server("https://platinum.141412.xyz/", name = "1.9")
 mainGD = gjservers.Server("https://www.boomlings.com/database/", name = "2.2")
 
 # setting the infos i use in ask_yn as constants here bc it looks
